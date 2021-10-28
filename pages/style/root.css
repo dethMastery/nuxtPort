@@ -1,0 +1,26 @@
+:root {
+    --rBlack: #0D1B2A;
+    --oxfBlue: #1B263B;
+    --YinMn: #384F7A;
+    --Bdazzled: #415A77;
+    --shdwB: #778DA9;
+    --bYonder: #5E7797;
+    --LSb: #BCC8D6;
+    --beauB: #D0D8E2;
+    --platinum: #E0E1DD;
+    --timberwolf: #CFD1CB;
+
+    --crayola: #FFE373;
+
+    /* Body Part */
+        --bodyBG: var(--shdwB);
+
+        /* Left Part */
+            --lPix: var(--crayola);
+            --lCont: var(--YinMn);
+            --lContHover: var(--Bdazzled);
+
+            --lHeadText: var(--oxfBlue);
+            --lContText: var(--platinum);
+            --lContHText: var(--timberwolf);
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url(./root.css);
+
+body {
+    background-color: var(--bodyBG);
+    font-family: 'Kanit', sans-serif !important;
+    color: var(--platinum);
+}
+
+/* Mobile Navbar */
+    .mNav {
+        background-color: var(--lCont);
+    }
+
+/* Left Part */
+    .lPart {
+        text-align: center;
+    }
+
+    /* Header Part */
+        .lHeader {
+            padding: 1rem;
+            color: var(--lHeadText);
+        }
+
+    /* IMG Part */
+        .lIMG-Holder {
+            width: 90%;
+            background-color: var(--lPix);
+            border-radius: 15px;
+        }
+
+        .lIMG {
+            width: 100%;
+            padding: 0.5rem;
+        }
+
+    /* Menu Part */
+        .lMenu {
+            width: 100%;
+            height: auto;
+            background-color: var(--lCont);
+            margin-top: -2rem;
+            padding-bottom: 1rem;
+            border-radius: 10px;
+        }
+
+        /* Nav */
+            .lNavLink:hover {
+                background-color: var(--lContHover);
+            }
+
+            .lNavLink a {
+                color: var(--lContText) !important;
+            }
+
+            .lNavLink a:hover {
+                color: var(--lContHText) !important;
+                text-decoration: underline;
+            }
+
+/* Right Part */
+    .rPart {
+        text-align: center;
+    }
