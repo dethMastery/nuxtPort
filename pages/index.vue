@@ -1,5 +1,10 @@
 <template>
-  <Frame />
+  <b-container fluid>
+    <b-row>
+      <Frame-Left />
+      <Cont-Home />
+    </b-row>
+  </b-container>
 </template>
 
 <style>
