@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nPort',
+    title: 'Suphakit P. | Portfolio',
     htmlAttrs: {
       lang: 'en'
     },
