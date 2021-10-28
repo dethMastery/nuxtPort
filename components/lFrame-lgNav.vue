@@ -1,6 +1,6 @@
 <template>
     <div>
-                <h1 class="lHeader">
+        <h1 class="lHeader" style="text-align: center;">
             Portfolio
         </h1>
 
