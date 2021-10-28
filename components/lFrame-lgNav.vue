@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="padding-left: 15px;">
         <h1 class="lHeader" style="text-align: center;">
             Portfolio
         </h1>
