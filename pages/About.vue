@@ -5,7 +5,7 @@
         <lFrame-Nav />
       </b-col>
       <Frame-Left />
-      <Cont-About />
+      <ContAbout />
     </b-row>
   </b-container>
 </template>
@@ -17,7 +17,7 @@
 
 <script lang="ts">
   import Vue from 'vue'
-import ContAbout from '~/components/Cont-About.vue'
+  import ContAbout from '~/components/Cont-About.vue'
 
   export default Vue.extend({ components: { ContAbout } })
 </script>
