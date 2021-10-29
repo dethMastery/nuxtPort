@@ -7,6 +7,18 @@ body {
     color: var(--platinum);
 }
 
+.holder {
+    width: 100vw!important;
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+.holder .row {
+    width: 100vw!important;
+    padding: 0!important;
+    margin: 0!important;
+}
+
 /* Mobile Navbar */
     .mNav {
         background-color: var(--lCont);
