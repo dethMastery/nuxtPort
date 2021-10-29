@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+}
+
+.rPart {
+    text-align: center;
+    padding: 0!important; 
+    margin: 0!important;
+    width: 100vw !important;
+}
+
+.carousel, .carousel-inner, .carousel-item, .carousel-inner .active {
+    height: 100vh;
+}
+
+.carousel-item {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    top: 40%;
+    bottom: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.blackscreen {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 50%;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
