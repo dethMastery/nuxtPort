@@ -12,7 +12,7 @@
 
 <style>
   @import url(./style/Frame.css);
-  @import url(./style/Home.css);
+  @import url(./style/Skill.css);
 </style>
 
 <script lang="ts">
