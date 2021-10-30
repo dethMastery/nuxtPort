@@ -5,7 +5,7 @@
         <lFrame-Nav />
       </b-col>
       <Frame-Left />
-      <Cont-Skill />
+      <Cont-Skills />
     </b-row>
   </b-container>
 </template>
