@@ -37,6 +37,9 @@
                     </h5>
                         <ul>
                             <li>
+                                {{Edu0}}
+                            </li>
+                            <li>
                                 {{Edu1}}
                             </li>
                             <li>
@@ -62,16 +65,19 @@
     var name = "Suphakit Pinyoworapot"
     var birthDate = "June 15, 2002"
 
+    var g0 = "1st Year Undergraduated"
     var g1 = "Grade 11-12"
     var g2 = "Grade 10"
     var g3 = "Grade 7-9"
     var g4 = "Kintergarden - Grade 6"
 
+    var s0 = "[Computer Engineering] Phayao University"
     var s1 = "[Math-Sci] Darasamutr Sriracha School"
     var s2 = "[Math-Sci] Piboonbumpen Demonstration School"
     var s3 = "[MEP] Sriracha School"
     var s4 = "Darasamutr Sriracha School"
 
+    var y0 = "May 2021 - Present"
     var y1 = "2019 - April 2021"
     var y2 = "2018 - 2019"
     var y3 = "2014 - 2018"
@@ -83,6 +89,7 @@
     var n = x.getFullYear()
     var p = n - bd
 
+    var e0 =  g0 + ' -> ' + s0 + ' [ ' + y0 + ' ]'
     var e1 =  g1 + ' -> ' + s1 + ' [ ' + y1 + ' ]'
     var e2 =  g2 + ' -> ' + s2 + ' [ ' + y2 + ' ]'
     var e3 =  g3 + ' -> ' + s3 + ' [ ' + y3 + ' ]'
@@ -93,6 +100,7 @@
             return {
                 name : name,
                 age: p,
+                Edu0: e0,
                 Edu1: e1,
                 Edu2: e2,
                 Edu3: e3,
