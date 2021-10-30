@@ -17,7 +17,6 @@
 
 <script lang="ts">
   import Vue from 'vue'
-  import ContAbout from '~/components/Cont-About.vue'
-
-  export default Vue.extend({ components: { ContAbout } })
+  
+  export default Vue.extend({})
 </script>
