@@ -23,4 +23,7 @@
             --lHeadText: var(--oxfBlue);
             --lContText: var(--platinum);
             --lContHText: var(--timberwolf);
+
+        /* RightPart */
+            --rCont: var(--beauB);
 }
