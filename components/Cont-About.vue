@@ -13,10 +13,11 @@
 
         <!-- Info Part -->
         <div class="Info">
-            <h3>
-                Who Am I?
+            <h3 class="infoHeader">
+                <u>
+                    Who Am I?
+                </u>
             </h3>
-            <br>
             <ul>
                 <li>
                     <h5>
