@@ -18,3 +18,58 @@
 .head-text {
     padding-top: 15%;
 }
+
+.Skill {
+    padding: 3rem;
+    padding-top: 2rem !important;
+    padding-bottom: 1rem !important;
+    margin: 1.5rem;
+    margin-bottom: 0 !important;
+    margin-top: -2rem !important;
+    text-align: left;
+    border-radius: 15px;;
+    background-color: var(--rCont);
+    color: var(--rBlack);
+}
+
+.Skill h4 {
+    padding-bottom: 0.5rem;
+}
+
+.progress {
+    height: 25px;
+}
+
+.html {
+    background-color: #e96228!important;
+}
+
+.css {
+    background-color: #0d6efd!important;
+}
+
+.jsF {
+    background-color: #ffc107!important;
+    color: var(--rBlack);
+}
+
+.php {
+    background-color: #7376ac!important;
+}
+
+.js {
+    background-color: #ffc107!important;
+    color: var(--rBlack);
+}
+
+.ts {
+    background-color: #0d6efd!important;
+}
+
+.master {
+    background-color: #373737 !important;
+}
+
+.prod {
+    background-color: #004085 !important;
+}
