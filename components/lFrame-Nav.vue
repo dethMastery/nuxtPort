@@ -12,8 +12,8 @@
                 <b-nav-item href="/About">
                     About
                 </b-nav-item>
-                <b-nav-item href="/Skill">
-                    Skill
+                <b-nav-item href="/Skills">
+                    Skills
                 </b-nav-item>
                 <b-nav-item href="/Works">
                     Works
