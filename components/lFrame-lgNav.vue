@@ -24,9 +24,9 @@
                         About
                     </h5>
                 </b-nav-item>
-                <b-nav-item href="/Skill" class="lNavLink pt-1">
+                <b-nav-item href="/Skills" class="lNavLink pt-1">
                     <h5 style="padding-left: 15px;">
-                        Skill
+                        Skills
                     </h5>
                 </b-nav-item>
                 <b-nav-item href="/Works" class="lNavLink pt-1">
