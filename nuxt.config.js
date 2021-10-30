@@ -19,6 +19,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: 'https://unpkg.com/jarallax@1/dist/jarallax.min.js'
+      }
     ]
   },
 
