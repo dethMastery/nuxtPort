@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <!-- Works Part -->
+        <!-- Cert Part -->
         <div class="works">
             <b-row style="width: 100%; !important">
                 <div v-for="info in card" :key="info.id" class="col-12 col-md-6 pr-1 pb-2">
@@ -20,11 +20,12 @@
                             <img class="card-img-top" v-bind:src="info.pix">
                         </a>
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h5 class="card-title" style="text-align: center !important;">
                                 <strong>
                                     {{info.title}}
                                 </strong>
                             </h5>
+                            <p class="card-text" v-html="info.desp" style="text-align: left;"></p>
                         </div>
                         <div class="card-footer">
                             <p class="card-text" style="text-align: right">
