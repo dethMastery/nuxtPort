@@ -37,17 +37,17 @@
 
             <div v-for="info in card" :key="info.id">
                 <section class="modal fade" v-bind:id="info.id" tabindex="-1" :aria-labelledby="info.id" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <span> {{info.name}} </span>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: white;"></button>
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <span> {{info.name}} </span>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="color: white;"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="asset/image/working/working-4.webp" alt="cert-1" class="modal-img">
+                        </div>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <img src="asset/image/working/working-4.webp" alt="cert-1" class="modal-img">
-                    </div>
-                    </div>
-                </div>
                 </section>
             </div>
         </div>
