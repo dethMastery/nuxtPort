@@ -37,7 +37,7 @@ body {
 }
 
 .card-img-wrap {
-    padding: 27%;
+    padding: 30%;
     position: relative;
     overflow: hidden;
 }
@@ -46,10 +46,27 @@ body {
     position: absolute;
     top: 0;
     transition: 0.5s;
-    margin-left: -50%;
-    margin-top: 0;
+    margin-left: -30%;
+    margin-top: 0.1rem;
 }
 
 .card-img-wrap img:hover {
     transform: scale(1.1);
+}
+
+.modal {
+    color: var(--rBlack) !important;
+}
+
+.modal-header {
+    background-color: var(--bYonder);
+    color: var(--platinum)!important;
+}
+
+.modal-body {
+    background-color: var(--beauB);
+}
+
+.img-modal {
+    width: 100%;
 }
