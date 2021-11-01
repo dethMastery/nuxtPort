@@ -53,3 +53,20 @@ body {
 .card-img-wrap img:hover {
     transform: scale(1.1);
 }
+
+.modal {
+    color: var(--rBlack) !important;
+}
+
+.modal-header {
+    background-color: var(--bYonder);
+    color: var(--platinum)!important;
+}
+
+.modal-body {
+    background-color: var(--beauB);
+}
+
+.img-modal {
+    width: 100%;
+}
