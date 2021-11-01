@@ -16,7 +16,7 @@
             <b-row style="width: 100%; !important">
                 <div v-for="info in card" :key="info.id" class="col-12 col-md-6 pr-1 pb-2">
                     <div class="card h-100">
-                        <a href="#" class="card-img-wrap" v-b-modal="'mod'+info.id">
+                        <a class="card-img-wrap" v-b-modal="'mod'+info.id">
                             <img class="card-img-top" v-bind:src="info.pix">
                         </a>
                         <div class="card-body">
@@ -38,6 +38,9 @@
             <div v-for="info in card" :key="info.id">
                 <b-modal :id="'mod'+info.id" :title="info.title" hide-footer>
                     <img :src="info.pix" :alt="info.title" class="img-modal">
+                    <p class="index ">
+
+                    </p>
                 </b-modal>
             </div>
 
@@ -58,8 +61,8 @@ export default {
         axios
             .get('https://cdn.000198.xyz/api/prof')
             .then(response => (
-                    console.log(response.data.Work),
-                    this.card = response.data.pF.Work
+                    console.log(response.data.Cert),
+                    this.card = response.data.pF.Cert
                 )
             )
     }
