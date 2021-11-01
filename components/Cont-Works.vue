@@ -49,10 +49,10 @@ export default {
     },
     mounted() {
         axios
-            .get('https://raw.githubusercontent.com/dethMastery/nuxtPort/%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%F0%9F%97%BB/components/db/database.json')
+            .get('https://cdn.000198.xyz/api/prof')
             .then(response => (
                     console.log(response.data.Work),
-                    this.card = response.data.Work
+                    this.card = response.data.pF.Work
                 )
             )
     }
