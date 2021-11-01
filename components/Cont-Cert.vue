@@ -5,7 +5,7 @@
             <div class="bs">
                 <div class="head-text">
                     <h1>
-                        Works
+                        Certificate
                     </h1>
                 </div>
             </div>
