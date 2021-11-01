@@ -12,7 +12,7 @@
         </div>
 
         <!-- Cert Part -->
-        <div class="works">
+        <div class="cert">
             <b-row style="width: 100%; !important">
                 <div v-for="info in card" :key="info.id" class="col-12 col-md-6 pr-1 pb-2">
                     <div class="card h-100">
