@@ -17,24 +17,3 @@
         </div>
     </b-col>
 </template>
-
-<script>
-import axios from 'axios'
-
-export default {
-    data() {
-        return {
-            card: []
-        }
-    },
-    mounted() {
-        axios
-            .get('https://cdn.000198.xyz/api/prof')
-            .then(response => (
-                    console.log(response.data.Cert),
-                    this.card = response.data.pF.Cert
-                )
-            )
-    }
-}
-</script>
