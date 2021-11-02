@@ -1,5 +1,5 @@
 .img-head {
-    background-image: url('https://box.lolis.love/0/8zdlf.webp');
+    background-image: url('https://box.lolis.love/0/48hva.webp');
     width: 100%;
     height: 30vh;
     background-position: center;
@@ -19,7 +19,7 @@
     padding-top: 15%;
 }
 
-.Info {
+.Commission {
     padding: 3rem;
     padding-top: 2rem !important;
     padding-bottom: 1rem !important;
@@ -30,8 +30,4 @@
     border-radius: 15px;;
     background-color: var(--rCont);
     color: var(--rBlack);
-}
-
-.infoHeader {
-    padding-bottom: 0.5rem;
 }
