@@ -20,9 +20,9 @@
 }
 
 .Contact {
-    padding: 3rem;
+    padding: 1rem;
     padding-top: 2rem !important;
-    padding-bottom: 1rem !important;
+    padding-bottom: 2rem !important;
     margin: 1.5rem;
     margin-bottom: 1.5rem !important;
     margin-top: -2rem !important;
@@ -32,6 +32,7 @@
     color: var(--rBlack);
 }
 
-.infoHeader {
-    padding-bottom: 0.5rem;
+.card {
+    padding: 0 !important;
+    margin: 0 !important;
 }
