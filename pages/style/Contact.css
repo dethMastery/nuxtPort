@@ -1,5 +1,9 @@
 @import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
 
+body {
+    overflow-x: hidden;
+}
+
 .img-head {
     background-image: url('https://box.lolis.love/0/6qob0.webp');
     width: 100%;
@@ -24,7 +28,7 @@
 .Contact {
     padding: 1rem;
     padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 0.2rem !important;
     margin: 1.5rem;
     margin-bottom: 1.5rem !important;
     margin-top: -2rem !important;
@@ -37,4 +41,148 @@
 .card {
     padding: 0 !important;
     margin: 0 !important;
+    margin-bottom: 2rem !important;
+}
+
+.s-button {
+    color: var(--rBlack) !important;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: var(--timberwolf);
+}
+
+.s-button:hover {
+    color: var(--rBlack) !important;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: var(--timberwolf);
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.s-button .text {
+    padding-right: 0.4rem;
+}
+
+/* font sizing */
+#blog .s-button .text {
+    font-size: 18px !important;
+}
+
+#facebook .s-button .text {
+    font-size: 18px !important;
+}
+
+#instagram .s-button .text {
+    font-size: 20px !important;
+}
+
+#twitter .s-button .text {
+    font-size: 20px !important;
+}
+
+#discord .s-button .text {
+    font-size: 18px !important;
+}
+
+#github .s-button .text {
+    font-size: 20px !important;
+}
+
+#email .s-button .text {
+    font-size: 18px !important;
+}
+
+/* logo coloring */
+.s-button  #rsl{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: #ee802f;
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+.s-button  #fbl{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: #1B77F2;
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+.s-button  #igl{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: #82018E;
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+.s-button  #twl{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: #2BA9E1;
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+.s-button  #dcl{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: #6C86D5;
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+.s-button  #ghl{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: var(--rBlack);
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+.s-button  #eml{
+    padding: 0.38rem;
+    padding-bottom: 0% !important;
+    padding-top: 0% !important;
+    background-color: coral;
+    color: whitesmoke;
+    border-radius: 5px 0 0 5px;
+}
+
+/* icon resizing */
+.fa-facebook-f {
+    padding: 0.4rem;
+    font-size: 20px;
+}
+
+.fa-instagram {
+    font-size: 20px;
+    padding: 0.2rem;
+}
+
+.fa-twitter {
+    padding: 0.1rem;
+    font-size: 20px;
+}
+
+.fa-discord {
+    font-size: 20px;
+}
+
+.fa-github-alt {
+    padding: 0.1rem !important;
+    font-size: 20px;
+}
+
+.fa-envelope {
+    padding: 0.1rem !important;
+    font-size: 20px;
 }
