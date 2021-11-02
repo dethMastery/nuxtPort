@@ -12,7 +12,7 @@
 
 <style>
   @import url(./style/Frame.css);
-  @import url(./style/Works.css);
+  @import url(./style/Cert.css);
 </style>
 
 <script lang="ts">
