@@ -19,7 +19,7 @@
                         Blog
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="blog">
@@ -44,7 +44,7 @@
                         Facebook
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="facebook">
@@ -69,7 +69,7 @@
                         Instagram
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="instagram">
@@ -94,7 +94,7 @@
                         Twitter
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="twitter">
@@ -119,7 +119,7 @@
                         Discord
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="discord">
@@ -144,7 +144,7 @@
                         Github
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="github">
@@ -167,7 +167,7 @@
                         E-Mail
                     </span>
                     <span style="float: right;">
-                        |
+                        <i class="fas fa-chevron-down"></i>
                     </span>
                 </b-card-header>
                 <b-collapse id="email">
