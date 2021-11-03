@@ -16,7 +16,7 @@
             <b-row style="width: 100%; !important">
                 <div v-for="info in card" :key="info.id" class="col-12 col-md-6 pr-1 pb-2">
                     <div class="card h-100">
-                        <a href="" class="card-img-wrap" v-b-modal="'mod'+info.id">
+                        <a href="/" class="card-img-wrap" v-b-modal="'mod'+info.id">
                             <img class="card-img-top" v-bind:src="info.pix">
                         </a>
                         <div class="card-body">
