@@ -1,3 +1,5 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
 .img-head {
     background-image: url('https://box.lolis.love/0/48hva.webp');
     width: 100%;
@@ -20,7 +22,7 @@
 }
 
 .Commission {
-    padding: 3rem;
+    padding: 2rem;
     padding-top: 2rem !important;
     padding-bottom: 1rem !important;
     margin: 1.5rem;
@@ -30,4 +32,10 @@
     border-radius: 15px;;
     background-color: var(--rCont);
     color: var(--rBlack);
+}
+
+.card {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 2rem !important;
 }
