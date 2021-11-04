@@ -39,9 +39,6 @@
             <div v-for="info in card" :key="info.id">
                 <b-modal :id="'mod'+info.id" :title="info.title" hide-footer>
                     <img :src="info.pix" :alt="info.title" class="img-modal">
-                    <p class="index ">
-
-                    </p>
                 </b-modal>
             </div>
 
