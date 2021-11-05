@@ -13,7 +13,64 @@
 
         <!-- Info Part -->
         <div class="Donation">
-            
+            <b-row>
+                <div block v-for="dn in donate" :key="dn.id" class="col-4">
+                    <a :href="dn.link" v-if="dn.type != 'expanded' " class="donateD">
+                        <b-button block :style="'background: '+ dn.bgcolor + '; border: 0; color: ' + dn.tcolor + ';'">
+                            <i :class="dn.icon"></i>
+                            &nbsp;
+                            <span>
+                                {{dn.name}}
+                            </span>
+                        </b-button>
+                    </a>
+                    
+                    <b-button block :style="'background: '+ dn.bgcolor + '; border: 0; color: ' + dn.tcolor + ';'" v-if="dn.type != 'button'" v-b-toggle="'dn'+dn.id">
+                        <i :class="dn.icon"></i>
+                        &nbsp;
+                        <span>
+                            {{dn.name}}
+                        </span>
+                    </b-button>
+                </div>
+            </b-row>
+
+            <br>
+
+            <div block v-for="dn in donate" :key="dn.id" class="col-12">
+                <b-collapse :id="'dn'+dn.id">
+                    <b-card no-body class="mb-2">
+                        <b-card-header>
+                            {{dn.name}}
+                        </b-card-header>
+                        <b-card-body class="text-center">
+                            <span v-html="dn.detailed"></span>
+                            <a :href="dn.link" v-if="dn.link != ' '">
+                                Link
+                            </a>
+                        </b-card-body>
+                    </b-card>
+                </b-collapse>
+            </div>
         </div>
     </b-col>
 </template>
+
+<script lang="ts">
+import axios from 'axios'
+
+export default {
+    data() {
+        return {
+            donate: []
+        }
+    },
+    mounted() {
+        axios.get('https://cdn.000198.xyz/api/prof')
+             .then(response => (
+                 this.donate = response.data.pF.Donation
+                )
+             )
+    }
+}
+</script>
