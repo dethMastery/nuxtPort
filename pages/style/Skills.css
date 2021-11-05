@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .img-head {
     background-image: url('https://box.lolis.love/0/pex2e.webp');
     width: 100%;
