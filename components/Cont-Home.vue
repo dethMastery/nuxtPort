@@ -5,49 +5,17 @@
             indicators
             controls
             >     
-            <b-carousel-slide>
-                <template #img>                     
-                    <div class="carousel-img img1">
+            <b-carousel-slide v-for="pic in home" :key="pic.id">
+                <template #img>
+                    <div :style="'background-image: url(' + pic.bg + ');'" class="carousel-img img">
                         <div class="blackscreen"></div>
                     </div>
                     <div class="carousel-caption">
                         <h5>
-                            Suphakit P.
+                            {{pic.heading}}
                         </h5>
                         <p>
-                            1st Year Undergraduate Student / Junior Front-End Developer
-                        </p>
-                    </div>
-                </template>
-            </b-carousel-slide>
-
-            <b-carousel-slide>
-                <template #img>                     
-                    <div class="carousel-img img2">
-                        <div class="blackscreen"></div>
-                    </div>
-                    <div class="carousel-caption">
-                        <h5>
-                            Suphakit P.
-                        </h5>
-                        <p>
-                            1st Year Undergraduate Student / Junior Front-End Developer
-                        </p>
-                    </div>
-                </template>
-            </b-carousel-slide>
-
-            <b-carousel-slide>
-                <template #img>                     
-                    <div class="carousel-img img3">
-                        <div class="blackscreen"></div>
-                    </div>
-                    <div class="carousel-caption">
-                        <h5>
-                            Suphakit P.
-                        </h5>
-                        <p>
-                            1st Year Undergraduate Student / Junior Front-End Developer
+                            {{pic.subhead}}
                         </p>
                     </div>
                 </template>
@@ -57,27 +25,30 @@
 </template>
 
 <style>
-    .img1 {
+    .img {
         background-image: url('https://box.lolis.love/0/hflzv.webp');
         width: 100%;
         height: 100%;
         background-size: cover;
         background-position: center;
     }
-
-    .img2 {
-        background-image: url('https://box.lolis.love/0/et7et.webp');
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .img3 {
-        background-image: url('https://box.lolis.love/0/d82jx.webp');
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-    }
 </style>
+
+<script>
+import axios from 'axios'
+
+export default {
+    data() {
+        return {
+            home: []
+        }
+    },
+    mounted() {
+        axios.get('https://cdn.000198.xyz/api/prof')
+             .then(response => (
+                 this.home = response.data.pF.Home
+                )
+             )
+    }
+}
+</script>
