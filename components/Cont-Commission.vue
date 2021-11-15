@@ -37,10 +37,13 @@
                     <b-collapse v-bind:id="'fe'+fe.id">
                         <b-card-body>
                             <b-row>
-                                <b-col cols="8">
+                                <b-col cols="12" lg="8">
                                     <span v-html="fe.detailed"></span>
                                 </b-col>
-                                <b-col cols="4">
+                                <b-col cols="12" class="d-block d-md-none d-lg-none">
+                                    <br>
+                                </b-col>
+                                <b-col cols="12" lg="4">
                                     <span>
                                         ราคา : {{fe.price}}
                                     </span>
@@ -48,13 +51,14 @@
                                     <br>
                                     <span style="item-align: right;">
                                         <a :href="'mailto:'+mail" target="_blank">
-                                            <b-button variant="success" class="d-block">
+                                            <b-button variant="success" block>
                                                 กดเพื่อติดต่อ
                                             </b-button>
                                         </a>
                                     </span>
                                 </b-col>
                                 <b-col>
+                                    <br>
                                     <br>
                                 </b-col>
                                 <b-col cols="12" class="text-center" v-if="fe.exampleLink != ' '">
@@ -91,10 +95,13 @@
                     <b-collapse v-bind:id="'m'+m.id">
                         <b-card-body>
                             <b-row>
-                                <b-col cols="8">
+                                <b-col cols="12" lg="8">
                                     <span v-html="m.detailed"></span>
                                 </b-col>
-                                <b-col cols="4">
+                                <b-col cols="12" class="d-block d-md-none d-lg-none">
+                                    <br>
+                                </b-col>
+                                <b-col cols="12" lg="4">
                                     <span>
                                         ราคา : {{m.price}}
                                     </span>
@@ -145,10 +152,13 @@
                     <b-collapse v-bind:id="'vid'+vid.id">
                         <b-card-body>
                             <b-row>
-                                <b-col cols="8">
+                                <b-col cols="12" lg="8">
                                     <span v-html="vid.detailed"></span>
                                 </b-col>
-                                <b-col cols="4">
+                                <b-col cols="12" class="d-block d-md-block d-lg-none">
+                                    <br>
+                                </b-col>
+                                <b-col cols="12" lg="4">
                                     <span>
                                         ราคา : {{vid.price}}
                                     </span>
