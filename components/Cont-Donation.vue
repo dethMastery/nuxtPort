@@ -14,7 +14,7 @@
         <!-- Info Part -->
         <div class="Donation">
             <b-row>
-                <div block v-for="dn in donate" :key="dn.id" class="col-4">
+                <div block v-for="dn in donate" :key="dn.id" class="col-12 col-lg-4">
                     <a :href="dn.link" v-if="dn.type != 'expanded' " class="donateD">
                         <b-button block :style="'background: '+ dn.bgcolor + '; border: 0; color: ' + dn.tcolor + ';'">
                             <i :class="dn.icon"></i>
@@ -32,6 +32,9 @@
                             {{dn.name}}
                         </span>
                     </b-button>
+                    <c-col cols="12" class="d-block d-md-block d-lg-none">
+                        <br>
+                    </c-col>
                 </div>
             </b-row>
 
